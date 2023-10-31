@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    margin-top: 20px;
+    background-color:rgb(32,30,31) ;
+    padding: 13px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    justify-content: space-evenly;
+    box-shadow:;
+}
+#nav-icon{
+    height: 13px;
+    width: 13px;
+}
+.nav-options span{
+    padding: 0px 10px;
+}
+#nav-options{
+    font-weight: bolder;
+}
+#talk{
+    text-align: center;
+    margin-top: 150px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+li
+{
+    margin-top: 20px;
+}
+#input,#input2,#input3{
+    height: 25px;
+    width: 700px;
+    margin-bottom: 15px;
+}
+.contact-details{
+    margin-bottom: 30px;
+}
+#input4{
+    min-height: 100px;
+    width: 700px;
+    margin-bottom: 15px;
+}
+textarea{
+    padding: 5px;
+}
+#send-button{
+    width: 45px;
+    height: 30px;
+    background-color: rgb(246,157,12);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 325px;
+}
