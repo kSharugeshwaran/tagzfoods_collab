@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
+/* @-webkit-keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  } */
+  @keyframes fade-out {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+body{
+    background-color: #201E1F;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    text-align: center;
+    width: 1120px;
+    height: 50.8;
+    margin-left: 200px;
+    font-family: 'Oswald', sans-serif;
+}
+#top h1{
+    letter-spacing: 1px;
+}
+#top div{
+    display: flex;
+    align-items: center;
+}
+#top p{
+    font-size: 11.2px;
+    width: 44px;
+    letter-spacing: 1px;
+}
+#top select{
+    height: 25px;
+    color: white;
+    background-color: #201E1F;
+    border-radius: 3px;
+}
+hr{
+    width:75%;
+}
+#product{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    gap:100px;
+    justify-content: center;
+    margin-top: 70px;
+    padding-right: 135px;
+}
+.shop{
+    /* background-color: aqua; */
+    height: 434px;
+    width: 373px;
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    text-align: center;
+}
+.shop img{
+    background-color: #201E1F;
+    height: 300px;
+    width: 300px;
+}
+.shop h3{
+    color: white;
+}
+
+.shop p{
+    color: #DEB62C;
+    font-weight: bolder;
+}
+.shop p strike{
+    color: white;
+    text-decoration-color: #DEB62C;
+    margin-left: 10px;
+}
+
+.shop button{
+    background-color: #201E1F;
+    color: #DEB62C;
+    border:3px #DEB62C solid;
+    width: 205px;
+    height: 35px;
+    font-weight: bolder;
+    letter-spacing: 7px;
+    font-size: 14px;
+    /* font-stretch: ultra-expanded; */
+    cursor: pointer;
+}
+#shop1{
+    height: 300px;
+    width: 200px;
+}
+#overlap1{
+    position: absolute;
+    left: 229px;
+    height: 300px;
+    width: 200px;
+}
+#overlap1:hover{
+    /* -webkit-animation: fade-out 500ms ease-out both; */
+    animation: fade-out 500ms ease-out both;
+}
+.over:hover{
+    /* -webkit-animation: fade-out 500ms ease-out both; */
+    animation: fade-out 500ms ease-out both;
+}
+.over1{
+    position: absolute;
+    left: 578px;
+    height: 300px;
+    width: 300px;
+}
+.over2{
+    position: absolute;
+    right: 241px;
+    height: 300px;
+    width: 300px;
+}
+.over3{
+    position: absolute;
+    left: 178px;
+    height: 300px;
+    width: 300px;
+}
+.over4{
+    position: absolute;
+    left: 578px;
+    height: 300px;
+    width: 300px;
+}
+span{
+    color: white;
+    margin-left: 10px;
+}
+
+
+.offer{
+    position: absolute;
+    width: 50px;
+    height: 23px;
+    background-color: #DEB62C;
+    margin: 0;
+    padding: 0;
+    left: 40%;
+    /* top: 20%; */
+    color: white;
+   font-size: 11px;
+   padding-top: 10px;
+}
+
