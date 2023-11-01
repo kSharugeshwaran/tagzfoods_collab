@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,900&display=swap');
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-main{
+  width: 78vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-family: Nunito sans-serif;
+  margin: auto;
+  FONT-SIZE:14px;
+
+ }
+
+.site-footer-wrapper{
+  background-color: #201e1f;
+  color: #ffffff;
+  padding-top: 60px;
+  height: 345px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  font-family: Nunito sans-serif;
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+.footerLogo{
+  height: 110px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.footer-quicklinks a:hover {
+  text-decoration: none;
+  color: #f3c72d
+}
+
+.footer-quicklinks{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 11px;
+  width: 280px;
+  height: 329px;
+  line-height: 19.6px;
+  letter-spacing: 1px;
+  justify-content: space-between;
+ 
+}
+
+#footer-logo img {
+  max-width: 120px;
+  max-height: 80px;
+  z-index: 100;
+  position: relative;
+}
+
+.also_available{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 100px;
+
+}
+
+.footer-icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-right: 230px;
+}
+
+
+
+.site-footer {
+ background-color:#201e1f ;
+ margin-top: 300px;
+ 
+}
+
+.subscribe,#contact_form{
+  height: 309px;
+  width: 466px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+ 
+}
+
+#icon{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 150px;
+  width: 373px;
+}
+
+.img{
+  height: 30px;
+  border-radius: 6px;
+}
+
+
+#mail{
+  height: 45px;
+  width: 285px;
+ border: none;
+ padding-left: 15px;
+
+}
+
+#subscribe{
+  height:45px ;
+  width: 70px;
+  background-color: #d8a93b;
+  border: none;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  line-height: 13px;
+  
+
+}
+
+.input-form{
+  height: 45px;
+ width: 373px; 
+ display: flex;
+ justify-content: flex-start;
+ border: none;
+}
+
+
