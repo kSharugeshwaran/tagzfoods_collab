@@ -39,13 +39,19 @@
             <input type="text" placeholder="Email" id="input2"><br>
             <input type="text" placeholder="Phone Number" id="input3"><br>
             <!-- <input type="" placeholder="Message" id="input4"><br> -->
-            <textarea name="Contact[body]" id="input4" cols="30" rows="10" placeholder="Message"></textarea>
+            <div id="textarea"><textarea name="Contact[body]" id="input4" cols="30" rows="10" placeholder="Message"></textarea></div>
         </div>
         <button id="send-button">send</button>
         
     </div>
     <div class="whatsapp">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="" id="whatsapp-logo">
+        <div id="message-box">
+            <div id="message"><p id="text">Hey!. Lets Chat </p><button id="cancel-button">X</button></div>
+            <div id="arrow"></div>  
+        </div>
+        <a href="https://api.whatsapp.com/send/?phone=917019310491&text=Hey%2C+Let%E2%80%99s+chat+about+Tagz.&type=phone_number&app_absent=0"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/512px-WhatsApp.svg.png" alt="" id="whatsapp-logo"></a>
     </div>
+
 </body>
+<script src="contact.js"></script>
 </html>
